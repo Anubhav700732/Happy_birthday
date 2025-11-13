@@ -28,7 +28,8 @@ const notes = [
   {f:440,d:1,t:"Birth",p:p4},
   {f:349,d:1,t:"day&nbsp;",p:p4},
   {f:392,d:1,t:"To&nbsp;",p:p4},
-  {f:349,d:2,t:"You",p:p4},
+  {f:349,d:2,t:"You&nbsp",p:p4},
+  {f:349,d:2,t:"Khushi",p:p4},
 ];
 
 //DOM
