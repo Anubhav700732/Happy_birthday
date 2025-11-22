@@ -1,36 +1,41 @@
 const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
 const notes = [
-  {f:262,d:.5,t:"Hap",p:p1},
-  {f:262,d:.5,t:"py&nbsp",p:p1},
-  {f:294,d:1,t:"Birth",p:p1},
-  {f:262,d:1,t:"day&nbsp",p:p1},
-  {f:349,d:1,t:"To&nbsp",p:p1},
-  {f:330,d:2,t:"You",p:p1},
-  
-  {f:262,d:.5,t:"Hap",p:p2},
-  {f:262,d:.5,t:"py&nbsp",p:p2},
-  {f:294,d:1,t:"Birth",p:p2},
-  {f:262,d:1,t:"day&nbsp",p:p2},
-  {f:392,d:1,t:"To&nbsp;",p:p2},
-  {f:349,d:2,t:"You&nbsp",p:p2},
-  {f:349,d:2,t:"Khushi",p:p2},
-  
-  {f:262,d:.5,t:"Hap",p:p3},
-  {f:262,d:.5,t:"py&nbsp;",p:p3},
-  {f:523,d:1,t:"Birth",p:p3},
-  {f:440,d:1,t:"day&nbsp;",p:p3},
-  {f:349,d:1,t:"Dear&nbsp;",p:p3},
-  {f:330,d:1,t:"Frie",p:p3},
-  {f:294,d:3,t:"nd",p:p3},
-  
-  {f:466,d:.5,t:"Hap",p:p4},
-  {f:466,d:.5,t:"py&nbsp;",p:p4},
-  {f:440,d:1,t:"Birth",p:p4},
-  {f:349,d:1,t:"day&nbsp;",p:p4},
-  {f:392,d:1,t:"To&nbsp;",p:p4},
-  {f:349,d:2,t:"You&nbsp",p:p4},
-  {f:349,d:2,t:"Khushi",p:p4},
+  // Verse 1
+{f:262, d:.5, t:"Hap",     p:p1},
+{f:262, d:.5, t:"py ",     p:p1},
+{f:294, d:1,  t:"Birth",   p:p1},
+{f:262, d:1,  t:"day ",    p:p1},
+{f:349, d:1,  t:"To ",     p:p1},
+{f:330, d:2,  t:"You",     p:p1},
+
+// Verse 2
+{f:262, d:.5, t:"Hap",     p:p2},
+{f:262, d:.5, t:"py ",     p:p2},
+{f:294, d:1,  t:"Birth",   p:p2},
+{f:262, d:1,  t:"day ",    p:p2},
+{f:392, d:1,  t:"To ",     p:p2},
+{f:349, d:2,  t:"You ",    p:p2},
+{f:349, d:2,  t:"Khushi",  p:p2},
+
+// Verse 3
+{f:262, d:.5, t:"Hap",     p:p3},
+{f:262, d:.5, t:"py ",     p:p3},
+{f:523, d:1,  t:"Birth",   p:p3},
+{f:440, d:1,  t:"day ",    p:p3},
+{f:349, d:1,  t:"Dear ",   p:p3},
+{f:330, d:1,  t:"Frie",    p:p3},
+{f:294, d:3,  t:"nd",      p:p3},
+
+// Verse 4
+{f:466, d:.5, t:"Hap",     p:p4},
+{f:466, d:.5, t:"py ",     p:p4},
+{f:440, d:1,  t:"Birth",   p:p4},
+{f:349, d:1,  t:"day ",    p:p4},
+{f:392, d:1,  t:"To ",     p:p4},
+{f:349, d:2,  t:"You ",    p:p4},
+{f:349, d:2,  t:"Khushi",  p:p4},
+
 ];
 
 //DOM
