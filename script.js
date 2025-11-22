@@ -13,7 +13,8 @@ const notes = [
   {f:294,d:1,t:"Birth",p:p2},
   {f:262,d:1,t:"day&nbsp",p:p2},
   {f:392,d:1,t:"To&nbsp;",p:p2},
-  {f:349,d:2,t:"You",p:p2},
+  {f:349,d:2,t:"You&nbsp",p:p2},
+  {f:349,d:2,t:"Khushi",p:p2},
   
   {f:262,d:.5,t:"Hap",p:p3},
   {f:262,d:.5,t:"py&nbsp;",p:p3},
